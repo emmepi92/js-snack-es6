@@ -60,7 +60,7 @@ const biciList = [
 let thisBici;
 let pesoThisBici;
 
-for ( var x = 0; x < biciList.length; x++) {
+for ( let x = 0; x < biciList.length; x++) {
 
     const {peso} = biciList[x];
     if (typeof pesoThisBici === 'undefined' || peso < pesoThisBici) {
